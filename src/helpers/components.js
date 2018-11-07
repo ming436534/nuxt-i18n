@@ -1,7 +1,7 @@
 const { readFileSync } = require('fs')
 const { COMPONENT_OPTIONS_KEY } = require('./constants')
 
-const acorn = require('acorn')
+const acorn = require('acorn-loose')
 const walker = require('acorn-walk')
 const compiler = require('vue-template-compiler')
 
